@@ -16,7 +16,7 @@ dockerops_kwargs = {
     "mount_tmp_dir": False,
     "mounts": [
         Mount(
-            source="<path_to_your_airflow_batch_inference_repo>/data", # Change to your path
+            source="/Users/arindam/Machine Learning/GitHub_Repository/AIRFLOW_BATCH_INFERENCE/data", # Change to your path
             target="/opt/airflow/data/",
             type="bind",
         )
