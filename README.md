@@ -79,3 +79,7 @@ When you are finished working and want to clean up your environment, run
 ```bash
 docker compose down --volumes --rmi all
 ```
+```bash
+docker image rm -f data-loader:latest
+docker image rm -f model-prediction:latest
+```
